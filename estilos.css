@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    background-color: #4d9982;
+}
+
+
+
+.contenedorprimario {
+    height: 95px;
+    width: 700px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #f7233f, #40e6f1);
+    justify-content: center;
+    background-color: rgb(103, 238, 186);
+}
+
+h2, p{
+    text-align: center;
+    font-size: 32px;
+    color: rgba(245, 150, 61, 0.774);
+ background-color: rgba(0,0,0,0.5);
+}
+
+
+.segundocontenedor{
+    display: flex;
+    
+    height: 350px;
+    width: 700px;
+    
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    border-radius: 15px;
+    background: linear-gradient(to right, #dbe95d, #f7f4ef);
+}
+
+button {
+    background-color: rgba(0,0,0,0.5);
+     color: #f7f4ef;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    text-align: center;
+    height: 60px;
+    width: 80px;
+    
+}
+
+#cajaroja {
+    margin-top: 25vh;
+    font-size: 30px;
+    background-color: rgb(219, 48, 36);
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+
+    
+}
+
+#cajaverde {
+    margin-top: 25vh;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(50, 226, 94);
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#cajaazul {
+    margin-top: 25vh;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(58, 55, 218);
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+
+#pantalla {
+    font-size: 2rem;
+    margin-top: 15px;
+}
